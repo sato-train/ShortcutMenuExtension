@@ -1,0 +1,51 @@
+# ビルド出力
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+nuget.exe
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# 署名キー（秘密鍵を含むためリポジトリに含めない）
+Key.snk
+*.pfx
+
+# その他
+*.cache
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ローカル設定（必要に応じて）
+# *.config.user
+# app.config.user
